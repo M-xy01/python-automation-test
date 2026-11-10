@@ -1,0 +1,15 @@
+ui:
+  base_url: http://localhost:9527
+  username: admin123
+  password: admin123
+
+api:
+  base_url: http://localhost:8083/admin
+  timeout: 10
+
+db:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: "${DB_PASSWORD}"
+  database: litemall

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pymysql; print\\('pymysql', pymysql.__version__\\)\")",
+      "Bash(python -c \"import yaml, openpyxl, requests, selenium, pytest, allure; print\\('core deps ok'\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
